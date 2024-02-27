@@ -17,11 +17,11 @@ export const TargetMarketCard: FC<TargetMarketCardProps> = ({
       <Image
         alt={heading}
         src={imageUrl}
-        className="w-[104px] h-[104px] rounded-2xl"
+        className="w-16 h-16 md:w-[104px] md:h-[104px] rounded-lg md:rounded-2xl"
       />
-      <header className="flex flex-col gap-1">
-        <h3 className="text-lg md:text-2xl">{heading}</h3>
-        <p className="text-base text-secondary">{message}</p>
+      <header className="flex flex-col md:gap-1">
+        <h3 className="text-base md:text-lg lg:text-2xl">{heading}</h3>
+        <p className="text-sm md:text-base text-secondary">{message}</p>
       </header>
     </article>
   );

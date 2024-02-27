@@ -4,9 +4,13 @@ import Marquee from "react-fast-marquee";
 
 import { SectionHeader } from "./SectionHeader";
 import { TargetMarketCard } from "./TargetMarketCard";
+import kampanyeSosial from "../assets/kampanye-sosial.png";
+import komunitas from "../assets/komunitas.png";
 import lembagaAmal from "../assets/lembaga-amal.jpeg";
 import nonProfit from "../assets/non-profit.jpeg";
+import organisasi from "../assets/organisasi.png";
 import pendidikan from "../assets/pendidikan.jpeg";
+import perusahaan from "../assets/perusahaan.png";
 import tempatIbadah from "../assets/tempat-ibadah.jpeg";
 
 export const TargetMarketsSection = () => {
@@ -45,24 +49,24 @@ export const TargetMarketsSection = () => {
         </Marquee>
         <Marquee className="py-4 -my-4" direction="right">
           <TargetMarketCard
-            heading="Pendidikan"
-            imageUrl={pendidikan}
-            message="Bantuan untuk keperluan sekolah, kuliah."
+            heading="Organisasi"
+            imageUrl={organisasi}
+            message="Program sosial, bantuan sosial, donasi internal"
           />
           <TargetMarketCard
-            heading="Non-profit"
-            imageUrl={nonProfit}
-            message="Organisasi nirlaba, Yayasan"
+            heading="Komunitas"
+            imageUrl={komunitas}
+            message="Komunitas, lembaga masyarakat."
           />
           <TargetMarketCard
-            heading="Tempat Ibadah"
-            imageUrl={tempatIbadah}
-            message="Donasi untuk pembangunan/perbaikan tempat ibadah."
+            heading="Kampanye Sosial"
+            imageUrl={kampanyeSosial}
+            message="Donasi untuk aksi-aksi sosial."
           />
           <TargetMarketCard
-            heading="Lembaga Amal"
-            imageUrl={lembagaAmal}
-            message="Lembaga Zakat, Infaq dan Shodaqoh."
+            heading="Perusahaan"
+            imageUrl={perusahaan}
+            message="Program sosial perusahaan, CSR, Donasi internal"
           />
         </Marquee>
       </section>

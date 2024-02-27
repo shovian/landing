@@ -20,7 +20,7 @@ export const FeatureSection: FC<FeatureSectionProps> = ({
       <article className="w-full h-full flex flex-col lg:flex-row items-start bg-[#FBF3FF] rounded-[30px]">
         {contentPlacement === "left" ? (
           <Fragment>
-            <div className="flex-1 h-full flex flex-col justify-center bg-[#38AA90] rounded-[30px]">
+            <div className="flex-1 order-2 lg:order-1 h-full flex flex-col justify-center bg-[#38AA90] rounded-[30px]">
               <SectionHeader
                 className="p-10 md:p-14 lg:py-0 items-start"
                 heading={heading}
@@ -31,16 +31,16 @@ export const FeatureSection: FC<FeatureSectionProps> = ({
                 }}
               />
             </div>
-            <figure className="hidden lg:block flex-1 h-full">
+            <figure className="order-1 lg:order-2 flex-1 h-full">
               {children}
             </figure>
           </Fragment>
         ) : (
           <Fragment>
-            <figure className="hidden lg:block flex-1 h-full">
+            <figure className="order-2 lg:order-1 flex-1 h-full">
               {children}
             </figure>
-            <div className="flex-1 h-full flex flex-col justify-center">
+            <div className="order-1 lg:order-2 flex-1 h-full flex flex-col justify-center">
               <SectionHeader
                 className="p-10 md:p-14 lg:py-0 items-start"
                 heading={heading}

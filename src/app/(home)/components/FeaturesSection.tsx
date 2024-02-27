@@ -17,7 +17,7 @@ export const FeaturesSection = () => {
       >
         <Image
           alt="Illustration describing how easy it is to improve your donation with KawanBantu"
-          className="absolute right-16 top-1/2 -translate-y-1/2"
+          className="lg:absolute right-16 top-1/2 lg:-translate-y-1/2"
           src={tingkatkanDonasiFeature}
         />
       </FeatureSection>
@@ -28,7 +28,7 @@ export const FeaturesSection = () => {
       >
         <Image
           alt="Illustration describing convenient of donating with KawanBantu"
-          className="absolute left-16 top-1/2 -translate-y-1/2"
+          className="lg:absolute left-16 top-1/2 lg:-translate-y-1/2"
           src={tidakRibetFeature}
         />
       </FeatureSection>
@@ -38,7 +38,7 @@ export const FeaturesSection = () => {
       >
         <Image
           alt="Illustration describing no waiting donating with KawanBantu"
-          className="absolute right-16 top-1/2 -translate-y-1/2"
+          className="lg:absolute right-16 top-1/2 lg:-translate-y-1/2"
           src={tidakMenungguFeature}
         />
       </FeatureSection>
@@ -49,7 +49,7 @@ export const FeaturesSection = () => {
       >
         <Image
           alt="Illustration describing where you can share you donation information with KawanBantu"
-          className="absolute left-16 top-1/2 -translate-y-1/2"
+          className="lg:absolute left-16 top-1/2 lg:-translate-y-1/2"
           src={bagikanInfoFeature}
         />
       </FeatureSection>
@@ -59,7 +59,7 @@ export const FeaturesSection = () => {
       >
         <Image
           alt="Illustration describing where you have your own donation space in KawanBantu"
-          className="absolute right-16 top-1/2 -translate-y-1/2"
+          className="lg:absolute right-16 top-1/2 lg:-translate-y-1/2"
           src={selfSpaceFeature}
         />
       </FeatureSection>

@@ -11,7 +11,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "KawanBantu",
-  description: "Platform milikmu 7 menit saja",
+  description: "Platform milikmu beberapa menit saja",
 };
 
 export default function RootLayout({
