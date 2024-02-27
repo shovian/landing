@@ -34,7 +34,7 @@ export const HeroSection = () => {
       <figure>
         <Image
           alt="An overview of KawanBantu"
-          className="relative left-1/2 translate-x-[-46%]"
+          className="relative left-1/2 translate-x-[-46%] translate-y-[-15%] mb-[-64px] "
           src={heroFigure}
         />
       </figure>
