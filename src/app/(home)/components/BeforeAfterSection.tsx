@@ -33,7 +33,9 @@ const BeforeAfterCard: FC<BeforeAfterCardProps> = ({
               className="flex-shrink-0 w-[72px] h-[72px] object-cover rounded-full"
               src={image}
             />
-            <p className="text-lg md:text-xl leading-7 text-secondary">{before}</p>
+            <p className="text-lg md:text-xl leading-7 text-secondary">
+              {before}
+            </p>
           </div>
         </div>
         <Icons.Arrow className="hidden lg:block w-full" />
@@ -43,7 +45,9 @@ const BeforeAfterCard: FC<BeforeAfterCardProps> = ({
             <div className="flex-shrink-0 w-[72px] h-[72px] flex items-center justify-center rounded-full bg-brand-green-primary">
               <Icon className="text-white" />
             </div>
-            <p className="text-lg md:text-xl leading-7 text-secondary">{after}</p>
+            <p className="text-lg md:text-xl leading-7 text-secondary">
+              {after}
+            </p>
           </div>
         </div>
       </li>
@@ -84,8 +88,8 @@ export const BeforeAfterSection = () => {
           />
           <BeforeAfterCard
             Icon={Icons.QR}
-            after="Anda perlu membawa kotak donasi ke mana-mana."
-            before="Tanpa perlu membawa kotak, cukup dengan scan QR."
+            after="Tanpa perlu membawa kotak, cukup dengan scan QR."
+            before="Anda perlu membawa kotak donasi ke mana-mana."
             image={secondBeforeAfter}
           />
           <BeforeAfterCard
